@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #272727;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.headlinenavbar{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(39, 114, 255);
+    text-decoration: dashed;
+}
+
+.navbartext{
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.navbartext:hover{
+    text-decoration: underline;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.container .headlinevorstellung{
+    font-family: 'Lato', sans-serif;
+    color: rgb(168, 168, 168);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
